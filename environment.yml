@@ -1,0 +1,16 @@
+name: schrodinger-hpc
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - rdkit>=2023.09
+  - biopython>=1.81
+  - pandas>=2.0
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - pytest>=7.0
+  - pip
+# NOTE: Schrodinger (ligprep, glide, prepwizard) is NOT installed by this
+# environment. It is licensed commercial software loaded on the HPC cluster
+# via `module load schrodinger/v2024-2`. This environment covers only the
+# open-source helper tools used for ligand/pocket preparation and analysis.

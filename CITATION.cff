@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: schrodinger-hpc
+message: If you use this software, please cite it using the metadata below.
+type: software
+authors:
+  - family-names: Hentabli
+    given-names: Hamza
+    orcid: https://orcid.org/0000-0002-9530-2815
+repository-code: https://github.com/hentablihamza/schrodinger-hpc
+url: https://github.com/hentablihamza/schrodinger-hpc
+abstract: >
+  Production-style SLURM job scripts and license-free Python helper tools for
+  running Schrodinger (Glide docking and LigPrep) at scale on an academic HPC
+  cluster. Includes serial and job-array Glide scripts for ultra-large virtual
+  screening, protein preparation and grid generation jobs, and license-free
+  tools for extracting ligands and binding-pocket residues from a PDB,
+  computing a docking grid center, parsing Glide result CSVs, and summarizing
+  SLURM array-job progress, with a worked EGFR (PDB 1M17) example.
+keywords:
+  - molecular docking
+  - Glide
+  - virtual screening
+  - high-performance computing
+  - SLURM
+  - structure-based drug design
+  - cheminformatics
+version: 0.1.0
+date-released: "2026-11-24"

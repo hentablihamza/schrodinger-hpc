@@ -1,0 +1,9 @@
+# License-free Python helper tools (ligand/pocket extraction, grid center,
+# Glide CSV parsing, SLURM array-job summaries) and figure generation.
+# These do NOT need Schrodinger and run on any login node or in CI.
+rdkit>=2023.9.1
+biopython>=1.81
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+pytest>=7.0
